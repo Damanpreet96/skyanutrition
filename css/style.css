@@ -533,3 +533,26 @@ ul.footer-contact li i {
         width: 150px;
     }
 }
+
+@media (min-width:990px) and (max-width:1550px) {
+    #carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 5.2rem;
+        left:-55%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: var(--bs-carousel-caption-color);
+        text-align: center;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 4.2rem;
+        left: -54%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: var(--bs-carousel-caption-color);
+        text-align: center;
+    }
+}
