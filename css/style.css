@@ -545,6 +545,9 @@ div#mini_contact_form {
     border: none;
     margin-top: 15px;
 }
+section#about-us {
+    padding-bottom: 50px;
+}
 
 
 /* end of slider */
@@ -564,6 +567,9 @@ div#mini_contact_form {
         width: 100%;
         text-align: center;      
         margin-top: 30px;
+    }
+    section#about-us {
+        padding-bottom: 30px;
     }
     .footer-form {
        display: none;
