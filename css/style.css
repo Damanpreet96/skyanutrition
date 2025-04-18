@@ -280,8 +280,11 @@ section.icons button.owl-prev,section.icons button.owl-next {
     justify-content: space-between;
 }
 section#awards {
-    background: #b28067;
+    background-image: url(image/bg-img.jpg);
     margin: 10px 0 60px 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h2.main-title.text-center {
     color: #fff;
