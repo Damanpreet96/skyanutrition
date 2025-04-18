@@ -546,6 +546,7 @@ div#mini_contact_form {
     margin-top: 15px;
 }
 
+
 /* end of slider */
 @media (min-width:768px) {
     .category-content-inner {        
@@ -563,6 +564,9 @@ div#mini_contact_form {
         width: 100%;
         text-align: center;      
         margin-top: 30px;
+    }
+    .footer-form {
+       display: none;
     }
     .footer-inner {
     margin-top: 15px;
