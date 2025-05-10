@@ -558,6 +558,9 @@ section#about-us {
     .category-content-inner {        
         height: 370px;
     }
+    section.testimonials {
+    margin-top: 75px;
+}
     section#awards .col-md-8 {
         flex: auto;
         width: 66.66666667%;
@@ -571,6 +574,9 @@ section#about-us {
         text-align: center;      
         margin-top: 30px;
     }
+    .col-md-4.col-sm-12.d-flex.ani-img {
+    display: none !important;
+}
     section#about-us {
         padding-bottom: 30px;
     }
@@ -802,4 +808,23 @@ section.form-brand.pb-5 img {
 }
 .banner-slide {
     position: relative;
+}
+.second-img {
+    position: absolute;
+    padding-left: 160px;
+    z-index: -99;
+}
+.second-img img {
+    margin-top: -70px;
+}
+.img-brand {
+    animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {from {transform:translateY(0)}to {transform:translateY(-15px);}}@-webkit-keyframes bounce {from {transform:translateY(0)}to {transform:translateY(-15px)}}
+.col-md-6.col-sm-12.d-flex.ani-img{
+    display: flex!important;
+    justify-content: space-around !important;
+}
+div#customers-testimonials .owl-dots {
+    display: none;
 }
