@@ -761,12 +761,12 @@ section.form-brand.pb-5 img {
 }
 
 .why-choose-box {
-  border: 1px solid #eee;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  transition: 0.3s ease;
-  background-color: #fafafa;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s ease;
+    background-color: #f8ede4;
 }
 
 .why-choose-box img {
