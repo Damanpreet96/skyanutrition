@@ -728,6 +728,12 @@ div#form-banner .contacct button {
 section.form-brand.pb-5 img {
     width: 100%;
 }
+.why-choose-us h2.main-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 }
 
 
