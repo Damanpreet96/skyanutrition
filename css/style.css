@@ -789,3 +789,6 @@ div#form-banner .contacct button {
     display: flex;
     flex-direction: column;
 }
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
