@@ -718,12 +718,16 @@ div#form-banner .contacct button {
     margin-top: 22px;
 }
 @media only screen and (max-width: 768px) {
-    div#form-banner {
-        position: relative !important;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-    }
+  div#form-banner {
+    position: relative !important;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px 50px 15px !important;
+}
+section.form-brand.pb-5 img {
+    width: 100%;
+}
 }
 
 
