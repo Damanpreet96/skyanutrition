@@ -828,3 +828,27 @@ section.form-brand.pb-5 img {
 div#customers-testimonials .owl-dots {
     display: none;
 }
+
+/* ul.global-list li:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    background: url(image/right-arrow.png);
+    width: 12px;
+    height: 12px;
+    background-size: 12px;
+} */
+
+ul.global-list li {
+    line-height: 35px;
+    list-style-type: disclosure-closed;
+}
+#heading-color {
+    background-color: #88222f;
+    padding: 10px;
+    color: #fff;
+    width: 61%;
+    margin-top: 20px;
+    border-radius: 0px 25px 25px 0;
+}
