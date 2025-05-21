@@ -260,9 +260,11 @@ section.testimonials h2.main-heading, .hair-range h2.main-heading {
 
 /* Icon section */
 section.icons {
-    background-color: #f8ede4;
+    background-image: url(image/Skya-icons-bg.png);
     margin-bottom: 70px;
-    padding: 30px 0;
+    padding: 60px 0;
+    background-position: initial;
+    background-repeat: round;
 }
 section.icons button.owl-prev,section.icons button.owl-next {
     display: none;
@@ -851,4 +853,54 @@ ul.global-list li {
     width: 61%;
     margin-top: 20px;
     border-radius: 0px 25px 25px 0;
+}
+.content-pro {
+    height: 100%;
+    padding: 20px 20px 10px;
+    color: #000000;
+}
+.colour-1 {
+  background: #DDF4FF;
+
+}
+
+.colour-2 {
+  background: #E8FFEA
+}
+
+.colour-3 {
+  background: #EEE8FF
+}
+
+.colour-4 {
+  background:#E8FFEA
+}
+
+.colour-5 {
+  background:#EEE8FF
+}
+
+.colour-6 {
+  background: #DDF4FF;
+}
+
+
+.content-pro h4 {
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.pro-segment .col-md-4.col-sm-6.col-xs-12 {
+    margin: 15px 0;
+}
+.grid-ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 5px;
+}
+.why-heading h2.main-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
