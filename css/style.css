@@ -560,6 +560,10 @@ section#about-us {
     .category-content-inner {        
         height: 370px;
     }
+    .form-color {
+    background: #f8ede4;
+    width: 30%;
+}
     section.testimonials {
     margin-top: 75px;
 }
@@ -903,4 +907,64 @@ ul.global-list li {
     margin-bottom: 25px;
     font-size: 40px;
     text-transform: uppercase;
+}
+@media (max-width: 767px) {
+    section#about-us {
+        padding-bottom: 0 !important;
+    }
+    .col-md-7.col-sm-12.brand-content.position-relative {
+    margin-top: 20px;
+}
+.category-sec .col-md-3.col-sm-12 {
+    margin: 10px 0;
+}
+.why-heading h2.main-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+#heading-color {
+    background-color: #88222f;
+    padding: 10px;
+    color: #fff;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 0px 25px 25px 0;
+    font-size: 18px !important;
+}
+h2.main-heading {
+    text-align: center;
+    margin-bottom: 30px !important;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+section.testimonials h2.main-heading, .hair-range h2.main-heading {
+    text-align: center;
+    margin-bottom: 35px !important;
+    font-size: 30px !important;
+    text-transform: uppercase;
+}
+section.hair-range .owl-dots, .owl-nav {
+    display: none !important;
+}
+section.pro-segment.pt-2.pb-5.position-relative {
+    margin-top: -25px;
+}
+}
+footer.py-3 {
+    background-image: url(image/Footer.png);
+    margin-top: 50px;
+}
+footer.py-3 img.img-fluid {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+div#contact img {
+    width: 100%;
+}
+.bubble {
+    position: absolute;
+    right: 0px;       
 }
