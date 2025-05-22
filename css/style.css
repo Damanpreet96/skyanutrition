@@ -959,6 +959,15 @@ section.hair-range .owl-dots, .owl-nav {
 section.pro-segment.pt-2.pb-5.position-relative {
     margin-top: -25px;
 }
+.bubble {
+    position: fixed;
+    right: 25px !important;
+    bottom: 50px !important;
+    z-index: 999;
+}
+img.call-img {
+    width: 65px !important;
+}
 }
 footer.py-3 {
     background-image: url(image/Footer.png);
@@ -973,6 +982,19 @@ div#contact img {
     width: 100%;
 }
 .bubble {
-    position: absolute;
-    right: 0px;       
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    z-index: 999;
+}
+img.call-img {
+    width: 80px;
+}
+.bounce2 {
+  animation: bounce2 4s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	40% {transform: translateY(-15px);}
 }
