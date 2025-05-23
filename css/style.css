@@ -560,6 +560,9 @@ section#about-us {
     .category-content-inner {        
         height: 370px;
     }
+    div#form-banner {   
+    display: none !important;
+}
     .form-color {
     background: #f8ede4;
     width: 30%;
