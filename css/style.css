@@ -969,7 +969,7 @@ section.pro-segment.pt-2.pb-5.position-relative {
     z-index: 999;
 }
 img.call-img {
-    width: 65px !important;
+    width: 60px !important;
 }
 }
 footer.py-3 {
@@ -991,7 +991,8 @@ div#contact img {
     z-index: 999;
 }
 img.call-img {
-    width: 80px;
+    width: 65px;
+    margin-top: 20px;
 }
 .bounce2 {
   animation: bounce2 4s ease infinite;
