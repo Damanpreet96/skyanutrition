@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     $('#icon-list').owlCarousel( {
             loop: true,
             center: false,
-            items: 5,
+            items: 4,
             margin: 30,
             autoplay: true,
             dots:true,
@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
                     items: 2
                 },
                 1170: {
-                    items: 5
+                    items: 4
                 }
             }
         });
