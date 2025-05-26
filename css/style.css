@@ -1002,3 +1002,116 @@ img.call-img {
 	40% {transform: translateY(-30px);}
 	40% {transform: translateY(-15px);}
 }
+/* .one h2:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+} */
+.one h2:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+section#category .one h2:after {
+    width: 331px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 0px;
+    left: 41%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.testimonials .one h2:after {
+    width: 555px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 0px;
+    left: 32.5%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.hair-range .one h2:after {
+    width: 910px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 19%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.pro-segment .one h2:after {
+    width: 438px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 37%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+
+@media (max-width:767px) {
+    section#category .one h2:after {
+    width: 285px !important;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 25% !important; 
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.testimonials .one h2:after {
+    width: 340px !important;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 20% !important;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.hair-range .one h2:after {
+    width: 370px !important;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 18% !important;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+section.pro-segment .one h2:after {
+    width: 225px !important;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 2px;
+    left: 35% !important;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+}
